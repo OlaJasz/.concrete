@@ -1,0 +1,179 @@
+body {
+    font-family: 'Abel', serif;
+}
+.main-width {
+    width: 70%;
+    margin: 0 auto;
+}
+.section {
+    margin: 100px auto;
+    text-align: center;
+}
+h3 {
+     font-family: 'Moon Light', sans-serif;
+     font-size: 24px;
+     color: #C0D860;
+}
+
+/*==================navigacja===========================*/
+.main-nav {
+    position: fixed;
+
+}
+nav li {
+    display: inline-block;
+    width: 15%;
+}
+.greenBorder {
+    width: 15%;
+    height: 3px;
+    background-color: #C0D860;
+    display: block;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    background: none;
+    padding-top: 10px;
+}
+li {
+    display: inline-block;
+    padding-top: 20px;
+}
+.main-nav a:link {
+    color: #000;
+    text-decoration: none;
+}
+.main-nav a:hover {
+    color: #607848;
+    font-weight: bold;
+}
+.main-nav a:visited {
+    color: #000;
+}
+/*====================header======================*/
+header {
+    background: url("../images/headerBG.png");
+    background-repeat: no-repeat;
+    height: 410px;
+    font-family: 'Moon Light', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 180px 0 20px 190px ;
+    top: 0;
+
+}
+.main-nav, .main {
+    position: relative;
+}
+header h1 {
+    font-size: 82px;
+    margin-bottom: 20px;
+}
+header h2 {
+    line-height: 34px;
+    margin-bottom: 50px;
+}
+button {
+    border: 3px solid white;
+    background: none;
+    height: 20%;
+    width: 20%;
+    color: white;
+    font-family: 'Moon light', sans-serif;
+    font-size: 20px;
+}
+/*=========================================AND HEADER*/
+/*==START PART ABOUT====================================*/
+.section h3 {
+    margin-bottom: 40px;
+}
+.section p {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.are button {
+    color: #C0D860;
+    border: 2px solid #C0D860;
+    padding: 7px;
+    width: 40%;
+    margin-left: 30%;
+}
+.section img {
+    width: 40%;
+}
+.box1 {
+    width: 50%;
+    padding: 10px;
+    float: right;
+    text-align: left;
+}
+.box2 {
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+/*===============PORTFOLIO==================*/
+.pictures img:hover {
+    opacity: 0.5;
+}
+/*===================CONTACT====================*/
+
+input {
+    width: 50%;
+    height: 30px;
+    margin: 35px;
+    padding: 5px;
+    border: 1px solid white;
+    border-bottom: 2px solid #C0D860;
+}
+::-webkit-input-placeholder {
+    color: #607848;
+    font-size: 14px;
+    font-family: 'Abel', sans-serif;
+}
+.formularz button {
+    color: #C0D860;
+    border: 2px solid #C0D860;
+    padding: 7px;
+    width: 50%;
+}
+/*===================footer===============================*/
+footer {
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    bottom: 0;
+}
+
+/*=========================site PORTFOLIO====================*/
+.players {
+    text-align: center;
+    line-height: 24px;
+}
+.players img {
+    height: 350px;
+    margin: 50px;
+}
+/*========================site PORTFOLIO=========================*/
+.projects img{
+    margin: 20px;
+}
+.img3 {
+    height: 400px;
+}
+.img4 {
+    float: right;
+}
+.img5 {
+    height: 500px;
+    float: right;
+}
